@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;,">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <ul class="social-icons">
+            <li class="social-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-item"><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-item"><a class="social-link" href="#"><i class="fab fa-github"></i></a></li>
+            <li class="social-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>  
+        <div class="header-content">
+            <h4 class="header-subtitle">Hello, I am</h4>
+            <h1 class="header-title gradient-text">Your Name</h1>
+            <h6 class="header-mono">Full Stack Developer</h6>
+            <button class="btn btn-primary">
+                <i class="fas fa-download"></i> Download Resume
+            </button>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Theme Switcher -->
+    <div class="theme-switch">
+        <button id="lightMode" class="active" aria-label="Light Mode">
+            <i class="fas fa-sun"></i>
+        </button>
+        <button id="darkMode" aria-label="Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-links left-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            
+            <div class="brand">
+                <img src="assets/profile.JPG" alt="Your Name" class="brand-img">
+                <div class="brand-info">
+                    <h5>Eric Kaloki</h5>
+                    <div>Full Stack Developer</div>
+                </div>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-links right-links">
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-gradient">
+        <div class="hero-content">
+            <h1 class="gradient-text">Welcome to My Portfolio</h1>
+            <p class="typing-text">I'm a Professional Developer</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-gradient">
+        <h2 class="gradient-text">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm a passionate developer with expertise in creating modern web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.</p>
+                
+                <div class="interests">
+                    <h3>What Drives Me</h3>
+                    <p>I'm fascinated by emerging technologies and their potential to transform our world. My interests include:</p>
+                    <ul class="interests-list">
+                        <li><i class="fas fa-robot"></i> Artificial Intelligence</li>
+                        <li><i class="fas fa-mobile-alt"></i> Mobile Development</li>
+                        <li><i class="fas fa-code"></i> Web Development</li>
+                        <li><i class="fas fa-code-branch"></i> Open Source</li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-categories">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="skill-tags">
+                                <span>Python</span>
+                                <span>JavaScript</span>
+                                <span>C++</span>
+                                <span>C#</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web Technologies</h4>
+                            <div class="skill-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Educational Journey</h2>
+        <div class="education-timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Bachelor of Science (Information Technology) Degree</h3>
+                    <p class="timeline-date">2019 - 2023</p>
+                    <p>Machakos University</p>
+                    <ul class="achievements">
+                        <li>Major in Software Engineering</li>
+                        <li>Minor in Artificial Intelligence</li>
+                        <!-- <li>Dean's List: All Semesters</li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Professional Certifications</h3>
+                    <ul class="certifications">
+                        <li>AICE Certified </li>
+                        <li>Azure AI Fundamentals certified</li>
+                        <!-- <li>Microsoft Azure </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cv-download">
+            <h3>Download My CV</h3>
+            <p>Get a detailed overview of my experience and skills</p>
+            <a href="assets/cv.pdf" download class="download-btn">
+                <i class="fas fa-download"></i> Download CV
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-gradient">
+        <div class="container">
+            <h2 class="gradient-text">Featured Projects</h2>
+            <div id="projectFilters" class="project-filters"></div>
+            <div id="projectGrid" class="project-grid"></div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section-gradient">
+        <div class="container">
+            <h2 class="gradient-text">Resume</h2>
+            <div class="resume-content">
+                <p>Explore my professional journey and technical expertise in detail.</p>
+                <div class="resume-actions">
+                    <a href="resume.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-gradient">
+        <div class="container">
+            <h2 class="gradient-text">Let's Connect</h2>
+            <div class="contact-grid">
+                <div class="contact-form-card">
+                    <h3>Send a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email *" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message *" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="contact-info-card">
+                    <h3>Get in Touch</h3>
+                    <p>I'm always open to new opportunities and interesting projects. Let's create something amazing together!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <span>+ (123) 456-789</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <span>info@website.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <span>12345 Fake ST NoWhere AB Country.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="gradient-border">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
