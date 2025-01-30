@@ -6,7 +6,7 @@
     --dark-color: #2c3e50;
     --light-color: #ecf0f1;
     --accent-color: #e74c3c;
-    --bg-gradient: linear-gradient(135deg, #f6f8f9 0%, #e5ebee 100%);
+    --bg-gradient: linear-gradient(135deg, #2d2d2d 0%, #e5ebee 100%);
     --text-color: #2c3e50;
     --card-bg: #ffffff;
     --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
@@ -1221,7 +1221,13 @@ textarea.form-control {
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
-
+.gradient-p {
+    background: var(--bg-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
 .gradient-border {
     position: relative;
     border: 2px solid transparent;
